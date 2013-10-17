@@ -15,3 +15,10 @@
 }
 
 /* credit:  John Surdakowski at http://avexdesigns.com/responsive-youtube-embed/ */
+
+
+/* I had to add the following to the main container housing the .video-container in order to get a full-width rendering.
+This may not be your goal. */
+#wrap #content-sidebar-wrap {
+		width:100%;
+}
